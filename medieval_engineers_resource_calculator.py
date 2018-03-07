@@ -9,7 +9,6 @@ def create_tables():
     items['timber'] = {'log': (1/4)}
     items['planks'] = {'timber': (1/4)}
     items['metal parts'] = {'iron ingot': (1/10)}
-#     items['iron ingot'] = {'iron ore': 6}
     items['large chest'] = {'planks': 8, 'metal parts': 4}
     items['seeder'] = {'large chest': 1, 'timber': 10, 'metal parts': 18}
     items['plow'] = {'sticks': 15, 'timber': 4, 'metal parts': 60}
